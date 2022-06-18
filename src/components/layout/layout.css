@@ -1,0 +1,32 @@
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: black;
+    color:#fff;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+.layout-content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.layout-sidebar{
+    min-width: 250px;
+    border-right: 1px solid white;
+}
+.layout-content{
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 980px){
+    .layout-content-container {
+        padding: 0 40px;
+    }
+}
+

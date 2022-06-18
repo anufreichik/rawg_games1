@@ -1,0 +1,31 @@
+.display-options-wrapper{
+    display: flex;
+    align-items:stretch;
+    margin-bottom: 24px;
+}
+.display-options-left{
+  flex: 1 1 auto;
+}
+.display-options-right{
+    flex: 0 1 auto;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+
+.select-games-sort{
+    border-radius: 8px;
+    min-width: 150px;
+    border:none;
+    background-color: hsla(0,0%,100%,.07);
+    font-size: 14px;
+    color:#fff;
+    margin-right: 8px;
+    height: 45px;
+    padding:0 8px;
+
+}
+.select-games-sort  option{
+    background: #fff;
+    color: #000;
+}
